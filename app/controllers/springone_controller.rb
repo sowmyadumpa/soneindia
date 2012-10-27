@@ -1,0 +1,2 @@
+class SpringoneController < ApplicationController
+end
