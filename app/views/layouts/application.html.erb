@@ -1,14 +1,96 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
   <title>Soneindia</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+</head>-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SpringOne 2GX &nbsp; 2012 : India,  December 11 and 13, 2012 - Spring Framework , Groovy / Grails, Java / Agility Conference</title>
+
+	<meta name="robots" content="all" />
+
+<meta name="description" content="SpringOne 2GX"/>
+<meta name="keywords" content="SpringOne 2GX, SpringOne Americas, The Spring Experience, Spring Framework Conference, Spring Conference, Grails Conference, Groovy Conference"/>
+<link href="/assets/spring-stylesheet-3.1.52.css" rel="stylesheet" type="text/css" />
+
+    <link  href="/assets/print.css" rel="stylesheet" type="text/css" media="print" />
+
+<!--[if IE]>
+  		<script src="/script/html5.js"></script>
+		<link href="/styles/theme/ie-spring.css" rel="stylesheet" />
+<![endif]-->
+
+<link href="../../../../images/favicon/spring.ico" rel="SHORTCUT ICON"/>
+<link href="../../../../s/rss/spring.xml" rel="alternate" type="application/rss+xml" title="SpringOne 2GX"/><meta property="fb:app_id" content="146483928738728"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.springone2gx.com/conference/washington/2012/10/home"/>
+<meta property="og:image" content="http://springone2gx.com/s/images/fb/springone2gx.com.jpg"/>
+<meta property="og:site_name" content="SpringOne 2GX"/>
+
+
+<meta property="og:title" content="SpringOne 2GX - 2012"/>
+
 </head>
 <body>
+	<div id="view-wrapper">
 
-<%= yield %>
+<div id="wrapper">
 
+	<div id="hdr">
+	  <div class="nav-wrapper">
+
+        <div class="nav left">
+
+            <a class="home" href="index.htm">
+                <img src="/assets/spring2012/NavHome.png" alt="HOME"/>
+            </a>
+            <a class="travel" href="agenda.htm">Agenda</a>
+            <a class="travel" href="speakerlist.htm">Speakers</a>
+
+
+            <a class="travel" href="venue.htm">VENUE</a>
+
+            <br class="clear" />
+        </div>
+
+        <div class="nav right"><a class="register" href="register.html">
+            <img src="/assets/spring2012/NavBtn_Register.png" alt="Register"/>
+          </a>
+            <br class="clear" />
+        </div>
+
+        <br class="clear" /> <!-- // nav-wrapper -->
+    </div>
+
+    <br class="clear" />
+</div>
+
+	<%= yield %>
+<!-- FOOTER -->
+    <div id="ftr">
+        <ul>
+            <li><a href="../../../../home/about.htm">About</a></li>
+           
+            <li class="last"><a href="../../../../home/sitemap.htm">Site Map</a></li>
+        </ul><br />
+        
+        <ul>
+            <li class="last"><strong>SPRINGSOURCE SITES:</strong></li>
+            <li><a href="http://www.springsource.com/">Springsource.com</a></li>
+            <li class="last"><a href="http://springsource.org/">Springsource.org</a></li>
+        </ul>
+        <div class="copyright">
+        &copy; 2012 SpringSource, by VMWare &amp;.  All rights reserved. Java is a registered trademark of Oracle.
+        </div>
+    </div>
+
+</div>   <!-- // wrapper -->
+
+</div> <!-- // view-wrapper -->
 </body>
 </html>

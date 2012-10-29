@@ -63,6 +63,7 @@ Soneindia::Application.routes.draw do
   match '/venue' => 'home#venue', :as => :venue
   match '/xtravel' => 'home#xtravel', :as => :xtravel
   match '/agenda' => 'home#agenda', :as => :agenda
+  match '/register' => 'home#register', :as => :register
 
   match '/springone/event_schedule_2' => 'springone#event_schedule_2' , :as => :event_schedule_2
   match '/springone/event_springones_2' => 'springone#event_springones_2', :as => :event_springones_2
