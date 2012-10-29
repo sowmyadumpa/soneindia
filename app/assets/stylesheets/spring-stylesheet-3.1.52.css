@@ -1311,7 +1311,7 @@ div.agendaTable div.dayHeader h4:last-child { float: right; }
 
 div.agendaTable table { margin: 0 0 10px 5px; }
 div.agendaTable th { font-size: 0.9em; font-weight: bold; }
-div.agendaTable tr { background-color: #A4F1F4}
+div.agendaTable tr { background-color: #8FCFF3;}
 div.agendaTable td { font-size: 0.9em;vertical-align: top; text-align: left; padding:4px; }
 div.agendaTable td.breakslot { background: #EBF0F3;    }
 div.agendaTable td.selected {  background: yellow;    }
@@ -2875,8 +2875,15 @@ p.aboutSpeakers { margin: 0 0 10px 0; }
 
 div.sponsor-download-wrapper div { text-align: center; }
 
-div.agendaTable table td { background: #D1E9F5; }
-div.agendaTable table th.columnLabel { background: #FFF; }
+/*div.agendaTable table td { background: #D1E9F5; }
+div.agendaTable table th.columnLabel { background: #FFF; } */
+div.agendaTable table { border-collapse:collapse;}
+div.agendaTable table td, div.agendaTable table th { padding:3px 7px 2px 7px;}
+div.agendaTable table th {font-size:1.4em;text-align:left;padding-top:5px;padding-bottom:4px;background-color:#A7C942;color:#fff;}
+div.agendaTable table tr.alt td {color:#000;background-color:#EAF7FD;}
+div.agendaTable table tr.breaktime td {color:#000;background-color:#ECEAE3; font-style: italic; color: rgb(100, 93, 93);}
+
+
 div.agendaTable tr.subEvent td.first { background: none; }
 
 div.agendaTable tr.presentation td { min-width: 60px; }
