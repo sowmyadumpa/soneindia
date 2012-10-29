@@ -64,6 +64,7 @@ Soneindia::Application.routes.draw do
   match '/xtravel' => 'home#xtravel', :as => :xtravel
   match '/agenda' => 'home#agenda', :as => :agenda
   match '/register' => 'home#register', :as => :register
+  match '/about' => 'home#about', :as => :about
 
   match '/springone/event_schedule_2' => 'springone#event_schedule_2' , :as => :event_schedule_2
   match '/springone/event_springones_2' => 'springone#event_springones_2', :as => :event_springones_2
@@ -89,8 +90,8 @@ Soneindia::Application.routes.draw do
   match '/speaker/jennifer_hickey' => 'speaker#jennifer_hickey' , :as => :jennifer_hickey
   match '/speaker/josh_long' => 'speaker#josh_long' , :as => :josh_long
   match '/speaker/oliver_gierke' => 'speaker#oliver_gierke' ,:as => :oliver_gierke
-
-  root :to => 'home#home'
+  match '/speaker/costin_leau' => 'speaker#costin_leau' ,:as => :costin_leau
+  root :to => 'home#index'
   
 
 end
