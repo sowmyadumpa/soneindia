@@ -2971,3 +2971,10 @@ div.schedulePage div.pdf { float: right; width: 100px; }
 img.spring-source-university { margin: 30px 0 0 0; }
 
 div.springsource-university { text-align: center; }
+
+.left-border{
+	border-left:1px solid #b3b3b3;
+}
+.right-border{
+	border-right:1px solid #b3b3b3;
+}
