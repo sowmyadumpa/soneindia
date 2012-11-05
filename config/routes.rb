@@ -91,6 +91,7 @@ Soneindia::Application.routes.draw do
   match '/speaker/josh_long' => 'speaker#josh_long' , :as => :josh_long
   match '/speaker/oliver_gierke' => 'speaker#oliver_gierke' ,:as => :oliver_gierke
   match '/speaker/costin_leau' => 'speaker#costin_leau' ,:as => :costin_leau
+  match '/speaker/patrick_chanezon' => 'speaker#patrick_chanezon' ,:as => :patrick_chanezon
   root :to => 'home#index'
   
 
