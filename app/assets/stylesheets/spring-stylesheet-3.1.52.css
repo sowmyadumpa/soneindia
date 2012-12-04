@@ -2982,3 +2982,10 @@ div.springsource-university { text-align: center; }
 .right-border{
 	border-right:1px solid #b3b3b3;
 }
+
+.speaker{
+	width: 115px;
+}
+.session{
+	width: 200px;
+}
